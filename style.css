@@ -1,0 +1,99 @@
+/* Media queries for mobile devices */
+@media only screen and (max-width: 767px) {
+  /* Write CSS styles specific to mobile devices here */
+  .nav {
+    background-color: rgb(245, 16, 16);
+    /* display: inline-flex;
+    grid-template: inherit;
+    grid-template-columns: 2fr 4fr;
+    margin: 5px; */
+  }
+
+  ul {
+    margin-left: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #0b000000;
+  }
+}
+
+/* Media queries for tablet devices */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .nav {
+    background-color: rgb(19, 168, 34);
+    /* display: inline-flex;
+    grid-template: inherit;
+    grid-template-columns: 2fr 4fr;
+    margin: 5px; */
+  }
+
+  ul {
+    margin-left: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #0b000004;
+  }
+  /* Write CSS styles specific to tablet devices here */
+}
+
+/* Media queries for laptop/desktop devices */
+@media only screen and (min-width: 1024px) {
+  /* Write CSS styles specific to laptop/desktop devices here */
+  .panels {
+    width: 100%;
+    overflow: hidden; /* Clear float */
+  }
+
+  .left,
+  .right {
+    width: 50%;
+    float: left;
+  }
+  .nav {
+    background-color: rgb(9, 0, 0);
+    /* display: inline-flex;
+    grid-template: inherit;
+    grid-template-columns: 2fr 4fr;
+    margin: 5px; */
+  }
+
+  ul {
+    margin-left: 10px;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    padding: 8px;
+    background-color: #0b000001;
+  }
+}
