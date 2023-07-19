@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sagar Pathak</title>
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    />
+    <!-- Custom CSS -->
+    <style>
+      /* Add your custom styles here */
+      body {
+        background-color: #f8f9fa;
+      }
+      .responsive-image {
+        margin: 5%;
+        max-width: 60%;
+        height: auto;
+      }
+      .project-info {
+        text-align: start;
+        margin: 1%;
+        padding: 2%;
+      }
+      .section {
+        background-color: #fff;
+        padding: 30px;
+        text-align: start;
+        /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); */
+      }
+      .section2 {
+        background-color: #fff;
+        /* padding: 30px; */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+      .sectionp {
+        background-color: #fff;
+        /* padding: 30px; */
+        height: max-content;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
+
+      .navbar {
+        background-color: #343a40;
+        margin-bottom: 0%;
+        padding-left: 10%;
+        padding-right: 10%;
+      }
+      h4 {
+        margin: 3px;
+      }
+      h2 {
+        color: #343a40;
+        font-weight: bold;
+        text-align: center;
+        margin-bottom: 30px;
+      }
+
+      p {
+        /* text-align: center; */
+        margin-bottom: 30px;
+      }
+      .color_blue {
+        outline: none;
+      }
+      .section {
+        padding: 60px 0;
+      }
+      .no-borders li {
+        list-style: circle;
+        padding-left: 0;
+      }
+      .pdis {
+        padding: 3%;
+        margin: 2%;
+      }
+      .certificate-item {
+        text-align: center;
+        margin-bottom: 30px;
+      }
+      .navbar-brand img {
+        max-height: 50px; /* Adjust the height of the passport size image */
+      }
+    </style>
+  </head>
+
+  <body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="#">
+        <img src="MyImage.jpg" alt="Passport Photo" class="responsive-image" />
+      </a>
+
+      <a class="navbar-brand" href="#"><bold> Sagar Pathak</bold></a>
+      <!-- <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button> -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#project">Projects</a>
+          </li>
+          <li class="nav-item">
+            <a
+              class="nav-link"
+              href="https://github.com/Pathak-at-GitHub/Protfolio/blob/main/README.md"
+              >Resume</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#certificates">Certificates</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 section-container">
+            <div class="section">
+              <h2>About</h2>
+              <p>
+                My name is Sagar Pathak. I am a final year student (2020-24) at
+                Shri Ramdeobaba College of Engineering and Management currently
+                pursuing my B.Tech degree in Computer Science with
+                specialization in Artificial Intelligence and Machine Learning.
+                I have qualified GATE 2023 exam with AIR 3067 and a GATE score
+                of 498. Currently, I am a martian intern at Persistent Systems
+                Pvt ltd. where the tasks are related to different Core Subjects
+                of computer science like Linux, DBMS, Operating Systems, Data
+                Structures and algorithms.
+              </p>
+              <p>
+                I have worked as a web development inter at ICEICO pvt ltd where
+                I worked with HTML CSS and bootstrap for creating front-ends of
+                web applications. I am also doing my Homors in MERN Stack
+                development from RCOEM.
+              </p>
+            </div>
+          </div>
+          <div class="col-md-6 section-container">
+            <div class="section2">
+              <img
+                src="Gate_certificate.png"
+                alt="My image"
+                class="img-fluid"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Work Section -->
+    <section id="project" class="section bg-light">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="row">
+          <div class="col-md-6 certificate-item"></div>
+        </div>
+        <div class="row">
+          <div class="col-md-4 certificate-item">
+            <div class="sectionp">
+              <img src="Project 1.jpeg" class="responsive-image" alt="" />
+              <div class="project-info">
+                <h4>Drone detection and tracking</h4>
+                <p class="pdis">
+                  The project deals with Convolutional Neural Network,
+                  comparative analysis of Yolo V5, V6, V7, V8, Kalman filter for
+                  differentiatine between birds, planes and drones. It also
+                  predicts the path using Hungarian method of object tracking.
+                  The data set used for this project is fully private dataset.
+                  <a
+                    class="reference external"
+                    href="https://github.com/Pathak-at-GitHub/YOLOV7_path_Prediction"
+                  >
+                    Link
+                  </a>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 certificate-item">
+            <div class="sectionp">
+              <img
+                src="Project 2.png"
+                class="responsive-image"
+                alt=""
+                width="380px"
+                height="299px"
+              />
+              <h4>Virtual Health Assistant</h4>
+              <p class="pdis">
+                This is a mini project using Python Streamlit for predicting if
+                a user is suffering from diseases like diabetes, heart disease
+                or asthma based on the input added on the user interface. It
+                uses Explainable AI to enhance the trust of user on the
+                application. Check the link:
+                <a
+                  class="reference external"
+                  href="https://github.com/Pathak-at-GitHub/Explainable_AI_heart_disease/tree/master"
+                >
+                  Link
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 certificate-item">
+            <div class="sectionp">
+              <img
+                src="Project 3.jpg"
+                class="responsive-image"
+                alt=""
+                width="380px"
+                height="299px"
+              />
+              <h4>Yellow Object Tracking</h4>
+              <p class="pdis">
+                This is a mini project to demostrate how deep learning based
+                Object detection models can be implemented in a flask
+                application and othe security systems. The project uses concepts
+                of multithreading to collect images from multiple cameras and
+                perform object detection in real time. Main idea behind this
+                project was to track an object even when it moves out of the
+                range of a perticular camera. <a href=""> Link</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Certificates Section -->
+    <section id="certificates" class="section">
+      <div class="container">
+        <h2>Certificates</h2>
+        <div class="row">
+          <div class="col-md-4 certificate-item">
+            <img src="certificate1.png" alt="Certificate 1" class="img-fluid" />
+          </div>
+          <div class="col-md-4 certificate-item">
+            <img src="certificate2.png" alt="Certificate 2" class="img-fluid" />
+          </div>
+          <div class="col-md-4 certificate-item">
+            <img src="certificate3.png" alt="Certificate 3" class="img-fluid" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+      <div class="container">
+        <h2>Contact</h2>
+        <ul class="no-borders">
+          <li>Mobile: 9890883069</li>
+          <li>Email: pathakssofficial@gmail.com</li>
+          <li><a class="color_blue" href="http://">LinkedIn</a></li>
+          <li><a class="color_blue" href="http://">Leetcode</a></li>
+          <li><a class="color_blue" href="http://">GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
